@@ -41,7 +41,10 @@
         <dependent-module archiveName="struts2-json-plugin-2.5.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/JqgridStruts1/web/WEB-INF/lib/struts2-json-plugin-2.5.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="struts2-jquery-plugin-3.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/JqgridStruts1/web/WEB-INF/lib/struts2-jquery-plugin-3.0.0.jar">
+        <dependent-module archiveName="struts2-jquery-plugin-3.7.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/JqgridStruts1/web/WEB-INF/lib/struts2-jquery-plugin-3.7.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="struts2-jquery-grid-plugin-3.7.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/JqgridStruts1/web/WEB-INF/lib/struts2-jquery-grid-plugin-3.7.1.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="context-root" value="JqgridStruts1"/>
