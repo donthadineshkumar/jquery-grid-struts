@@ -22,8 +22,16 @@
 		<sjg:gridColumn name="name" index="name" title="Name" sortable="true" />
 		<sjg:gridColumn name="pos" index="pos" title="Position"
 			sortable="false" />
-		<sjg:gridColumn name="rank" index="rank" title="Rank" sortable="false" />
+		<sjg:gridColumn name="rank" index="rank" title="Rank" sortable="false"/>
+		<sjg:gridColumn name="comments" index="comments" title="Comments" sortable="false" formatter="textAreaFormatter"/>
 	</sjg:grid>
+	
+	<script>
+		function textAreaFormatter(value, options, rowObject){
+			var textAreaHTML = '<textarea id="'+options.colModel.name+'_'+options.rowId+'" name="'+options.colModel.name+'_'+options.rowId+'"  maxlength='+256+' style="overflow:hidden;width:282px;height:65px;" >'+value+'</textarea>';
+ 			return textAreaHTML;
+		}
+	</script>
 
 </body>
 </html>

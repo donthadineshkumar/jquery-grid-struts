@@ -5,13 +5,27 @@ public class Person {
 	private String name;
 	private String pos;
 	private Integer rank;
+	private String comments;
 	
-	public Person(String name, String pos, Integer rank){
+	public Person(String name, String pos, Integer rank,String comments){
 		this.name= name;
 		this.pos=pos;
 		this.rank=rank;
+		this.comments=comments;
 	}
 	
+
+
+	public String getComments() {
+		return comments;
+	}
+
+
+
+	public void setComments(String comments) {
+		this.comments = comments;
+	}
+
 
 
 	public String getPos() {

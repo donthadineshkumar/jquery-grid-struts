@@ -14,9 +14,9 @@ public class Employees {
 		emps.put(2, new Person("Ravi","SSE",new Integer(2)));
 		emps.put(3, new Person("Santosh","TL",new Integer(3)));*/
 		
-		emps.add(0, new Person("Dinesh","SE",new Integer(1)));
-		emps.add(1, new Person("Ravi","SSE",new Integer(2)));
-		emps.add(2, new Person("Santosh","TL",new Integer(3)));
+		emps.add(0, new Person("Dinesh","SE",new Integer(1),"Good - Hello World"));
+		emps.add(1, new Person("Ravi","SSE",new Integer(2),"Good - Hello World"));
+		emps.add(2, new Person("Santosh","TL",new Integer(3),"Good - Hello World"));
 	}
 	
 	
